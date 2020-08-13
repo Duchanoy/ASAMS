@@ -1,0 +1,44 @@
+{
+	"Nt" : {
+		"Name" : "numero de vueltas de la turbina ",
+		"Type" : "Continuo",
+		"min" : 200,
+		"max" : 16291
+	},
+	"Wid" : {
+		"Name" : "Id del cable",
+		"Type" : "ID",
+		"set" : [ 1, 2, 3, 4, 5, 6, 7, 8 ],
+		"Table" : {
+			"Dw" : [ 0.511, 0.450, 0.404, 0.361, 0.320, 0.287, 0.254, 0.226 ]
+		}
+	},
+	"Cid" : {
+		"Name" : "Id del nucleo magnetico",
+		"Type" : "ID",
+		"set" : [ 1, 2, 3, 4, 5 ],
+		"Table" : {
+			"Alt" : [ 71, 63.8, 55.5, 48.5, 40 ],
+			"base" : [ 86, 76, 66.5, 57, 42.5 ],
+			"wc" : [ 14, 12.8, 11, 9.5, 8 ]
+		}
+	},
+	"Nc" : {
+		"Name" : "Id del nucleo magnetico",
+		"Type" : "DiscreteID",
+		"min" : 7,
+		"max" : 40,
+		"Equation" : [
+			{
+				"name" : "Pf",
+				"eq" : "Nc*0.5"
+			}
+		]
+	},
+	"I" : {
+		"name" : "Corriente electrica",
+		"Type" : "Continuo",
+		"min" : 0.18,
+		"max" : 0.8
+	}
+}

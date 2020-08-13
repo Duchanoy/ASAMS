@@ -1,0 +1,38 @@
+{
+	"c1" : {
+		"Name" : "spring one constant ",
+		"Type" : "Continuo",
+		"min" : 0.5,
+		"max" : 1.5
+	},
+	"c2" : {
+		"Name" : "spring two constant ",
+		"Type" : "Continuo",
+		"min" : 0.05,
+		"max" : 0.15
+	},
+	"m" : {
+		"Name" : "mass",
+		"Type" : "Continuo",
+		"min" : 0.5,
+		"max" : 1.5
+	},
+	"r" : {
+		"Name" : "mass",
+		"Type" : "Continuo",
+		"min" : 0.4,
+		"max" : 0.6
+	},
+	"F1" : {
+		"Name" : "Force",
+		"Type" : "Continuo",
+		"min" : 0.5,
+		"max" : 1.5
+	},
+	"t1" : {
+		"Name" : "time ",
+		"Type" : "Continuo",
+		"min" : 0.5,
+		"max" : 1.5
+	}
+}
